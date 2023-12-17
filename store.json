@@ -1,0 +1,49 @@
+[
+  {
+    "cardHTML": "<article class='project-tile html'><a id='profile-link' href='./Projects/Html_w_CSS/documentationPage.html' target='_blank'><img src='./Projects/Html_w_CSS/images/documentationPageImage.png' alt='Documentation Page'><h3>Documentation Page</h3></a></article>"
+  },
+  {
+    "cardHTML": "<article class='project-tile html'><a id='profile-link' href='./Projects/Html_w_CSS/magazine.html' target='_blank'><img src='./Projects/Html_w_CSS/images/magazinePageImage.png' alt='codeCamp Magazine'><h3>Magazine</h3></a></article>"
+  },
+  {
+    "cardHTML": "<article class='project-tile html'><a id='profile-link' href='./Projects/Html_w_CSS/productLandingPage.html' target='_blank'><img src='./Projects/Html_w_CSS/images/productPageImage.png' alt='Product Landing Page'><h3>Product Landing Page</h3></a></article>"
+  },
+  {
+    "cardHTML": "<article class='project-tile html'><a id='profile-link' href='./Projects/Html_w_CSS/surveyForm.html' target='_blank'><img src='./Projects/Html_w_CSS/images/surveyFormImage.png' alt='Survey Form'><h3>Simple Survery form</h3></a></article>"
+  },
+  {
+    "cardHTML": "<article class='project-tile html'><a id='profile-link' href='./Projects/Html_w_CSS/tributePage.html' target='_blank'><img src='./Projects/Html_w_CSS/images/tributePageImage.png' alt='Dr.Norman Tribute Page'><h3>Tribute Page</h3></a></article>"
+  },
+  {
+    "cardHTML": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/Tech365-Clone' target='_blank'><img src='./Projects/Html_w_CSS/images/tech365.png' alt='Tech365 Web Clone '><h3>Tech365 WebClone</h3></a></article>"
+  },
+  {
+    "cardHTML": "<article class='project-tile html'><a id='profile-link' href='./Projects/Html_w_CSS/citySkyLine.html' target='_blank'><img src='./Projects/Html_w_CSS/images/citySkyImage.png' alt='City Sky Line '><h3>City Sky Line</h3></a></article>"
+  },
+  {
+    "cardHTML": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/Google-web-page/' target='_blank'><img src='./Projects/Html_w_CSS/images/oldGoogleClone.png' alt='Google Clone '><h3>Old Google Clone</h3></a></article>"
+  },
+  {
+    "cardBootstrap": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/Tindog-Clone/' target='_blank'><img src='./Projects/Html_w_Bootstrap/images/Tindog.png' alt='Tin Dog website '><h3>Tindog</h3></a></article>"
+  },
+  {
+    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/Dice_Game/' target='_blank'><img src='./Projects/javaScript/images/diceGame.png' alt='Dice Game '><h3>Dice Game</h3></a></article>"
+  },
+  {
+    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/NotePad/' target='_blank'><img src='./Projects/javaScript/images/webNote_CRUD.png' alt='Web Note '><h3>Web Note</h3></a></article>"
+  },
+  {
+    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/SimonsGame/' target='_blank'><img src='./Projects/javaScript/images/simonGame.png' alt='Simon Game '><h3>Simon Game</h3></a></article>"
+  },
+  {
+    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/Notification-page/' target='_blank'><img src='./Projects/javaScript/images/notificationPageBehaviour.png' alt='Notification Behaviour '><h3>Notification Page</h3></a></article>"
+  },
+  {
+    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='./projects/javaScript/multipleTimer/index.html' target='_blank'><img src='./Projects/javaScript/multipleTimer/images/timer3.png' alt='Multiple Timer '><h3>Multiple Timer</h3></a></article>"
+  },
+  {
+    "cardReact": "<article class='project-tile html'><a id='profile-link' href='./projects/React/task-tracker/build/index.html' target='_blank'><img src='./Projects/React/task-tracker/build/static/images/taskTracker.png' alt='Task-Tracker '><h3>Task-Tracker</h3></a></article>"
+  }
+]
+
+ 

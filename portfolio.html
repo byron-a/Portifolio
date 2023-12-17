@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Assets/favicon-32x32.png">
+    <title>Portfolio Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./stylesPort.css">
+</head>
+
+<body onload="loadHtmlCss()">
+    <header>
+        <nav id="navbar">
+            <a href="./portfolio.html"><div class="logo">
+                <span>byron-a</span><img src="./Assets/ilogo.png" alt="ilogo">
+            </div></a>
+            
+            <div class="navLinks">
+                <span class="about"><a href="#welcome-section">About</a></span>
+                <div class="myCv">
+                    <a href="https://byron-a.github.io/curriculum_vitae/" target="_blank">Curriculum Vitae</a>
+                </div>
+
+                <span class="projectsNav"><a href="#projects">Projects</a></span>
+                <div class="viewAll">
+                    <a href="./portfolioNext.html" target="_self">All Projects</a>
+                </div>
+                <!-- <div class="add">
+                    <a href="" target="_self">Add Project</a>
+                </div> -->
+
+                <span class="contact"><a href="#contacts">Contact</a></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome-section">
+            <h1>Hey, I am Byron</h1>
+            <p><i>a Web Developer...</i></p>
+        </section>
+
+        <section id="projects" >
+            <h2 class="project-title">Check Out My Projects.</h2>
+            <br>
+            <nav class="nav2">
+                <div class="htmlCss">Html5 w/ CSS</div>
+                <div class="htmlBootstrap">Html5 w/ Bootstrap</div>
+                <div class="javascript">JavaScript</div>
+                <div class="javascriptWebpack">JavaScript w/ Webpack</div>
+                <div class="react">React.js</div>
+                <div class="reactRedux">React.js w/ Redux</div>
+            </nav>
+
+            <!-- CARDS SECTION -->
+            <div class="cards">
+            </div>
+
+            <!-- THE NEXT PAGE BUTTON -->
+            <div class="next">
+                <h3><a href="./portfolioNext.html" target="_self">Show all ></a></h3>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contacts">
+            <div class="content">
+                <h3>Let's work together...</h3>
+                <i>How do you like your coffee?</i>
+            </div>
+            <div class="socialLinks">
+                <div>
+                    <span><i class="fa-brands fa-linkedin"></i><a href="www.linkedin.com/in/byron-ayalogu-7b52a08b"> LinkedIn</a></span>
+                </div>
+                <div>
+                    <span><i class="fa-brands fa-github"></i><a href="https://github.com/byron-a"> Github</a></span>
+                </div>
+                <div>
+                    <span><a href=""><i class="fa-brands fa-twitter"></i> Twitter</a></span>
+                </div>
+                <div>
+                    <span><a href="mailto:byronayalogu@gmail.com"><i class="fa-solid fa-envelope"></i> Send a mail</a></span>
+                </div>
+                <div>
+                    <span><a href="tel:+2349045166161"><i class="fa-solid fa-mobile"></i> Call me</a></span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span> &copy; created by byron-a</span>
+    </footer>
+    <script src="./portScript.js"></script>
+</body>
+
+</html>

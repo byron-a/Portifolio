@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Projects</title>
+    <link rel="icon" href="./Assets/favicon-32x32.png">
+    <link rel="stylesheet" href="./stylesPort.css">
+</head>
+<body class="bodyNext">
+    <nav class="navNext">
+        <a href="./portfolio.html#projects" target="_parent"><div class="logo logoNext" style="width: fit-content;">
+            <span>byron-a</span><img src="./Assets/ilogo.png" alt="ilogo">
+        </div>
+     </a> 
+        
+    </nav>
+    <br id="HCSS"> <!--This id targets the HTML project section of the portfolioNext page-->
+    <section id="projects" class="projectNext">
+    <h3 class="h3" >Html5 w/ CSS</h3>
+        <script>
+            let load = "./store.json";
+            fetch(load)
+            .then((res)=>res.json())
+            .then((data)=>{
+                let cards = document.getElementsByClassName('cards')[0];
+                for(let x of data){
+                    if(x.cardHTML){
+                    let create = document.createElement('div');
+                    create.innerHTML = x.cardHTML;
+                    cards.appendChild(create);
+                    }                    
+                }
+                
+            })
+        </script>
+        <div class="cards"></div>
+    </section>
+
+    <section id="projects" class="projectNext" >
+    <h3 class="h3" id="HBoot">Html5 w/ BootStrap</h3>
+        <script>
+            let load2 = "./store.json";
+            fetch(load2)
+            .then((res)=>res.json())
+            .then((data)=>{
+                let cards = document.getElementsByClassName('cards')[1];
+                for(let x of data){
+                    if(x.cardBootstrap){
+                      let create = document.createElement('div');
+                      create.innerHTML = x.cardBootstrap;
+                      cards.appendChild(create);
+                    }
+                }
+                
+            })
+        </script>
+        <div class="cards"></div>
+    </section>
+
+    <section id="projects" class="projectNext">
+    <h3 class="h3" id="Java">JavaScript</h3>
+        <script>
+            let load3 = "./store.json";
+            fetch(load3)
+            .then((res)=>res.json())
+            .then((data)=>{
+                let cards = document.getElementsByClassName('cards')[2];
+                for(let x of data){
+                    if(x.cardJavaS){
+                      let create = document.createElement('div');
+                      create.innerHTML = x.cardJavaS;
+                      cards.appendChild(create);
+                    }
+                }
+                
+            })
+        </script>
+        <div class="cards"></div>
+    </section>
+
+    <section id="projects" class="projectNext" >
+    <h3 class="h3" id="JavaPack">JavaScript w/ WebPack</h3>
+        <script>
+            let load4 = "./store.json";
+            fetch(load4)
+            .then((res)=>res.json())
+            .then((data)=>{
+                let cards = document.getElementsByClassName('cards')[3];
+                if(data.includes(data.cardJavaW)){
+                   for(let x of data){
+                    if(x.cardJavaW){
+                      let create = document.createElement('div');
+                      create.innerHTML = x.cardJavaW;
+                      cards.appendChild(create);
+                    }
+                  }
+                }else {
+                    cards.style.padding = "40px"
+                    cards.innerHTML = "<h3><i>Project Upload Soon!</i></h3>"
+                }
+            })
+        </script>
+        <div class="cards"></div>
+    </section>
+
+    <section id="projects" class="projectNext">
+    <h3 class="h3" id="Reac">React</h3>
+        <script>
+            let load5 = "./store.json";
+            fetch(load5)
+            .then((res)=>res.json())
+            .then((data)=>{
+                let cards = document.getElementsByClassName('cards')[4];
+                for(let x of data){
+                    if(x.cardReact){
+                       let create = document.createElement('div');
+                    create.innerHTML = x.cardReact;
+                      cards.appendChild(create);
+                    }
+                    
+                }
+                
+            })
+        </script>
+        <div class="cards"></div>
+    </section>
+
+    <section id="projects" class="projectNext" >
+    <h3 class="h3" id="ReacRed">React w/ Redux</h3>
+        <script>
+            let load6 = "./store.json";
+            fetch(load6)
+            .then((res)=>res.json())
+            .then((data)=>{
+                let cards = document.getElementsByClassName('cards')[5];
+                if(data.includes(data.cardReactRdx)){
+                   for(let x of data){
+                    if(x.cardReactRdx){
+                       let create = document.createElement('div');
+                       create.innerHTML = x.cardReactRdx;
+                       cards.appendChild(create);
+                    }
+                  }
+                }else {
+                    cards.style.padding = "40px"
+                    cards.innerHTML = "<h3><i>Project Upload Soon!</i></h3>"
+                }
+                
+            })
+        </script>
+        <div class="cards"></div>
+    </section>
+    <footer>
+        <span> &copy; created by byron-a</span>
+    </footer>
+</body>
+</html>
