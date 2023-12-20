@@ -296,15 +296,13 @@ footer span {
   }
   .myCv {
     top: 110px;
-    right: 340px;
+    right: 0px;
+    margin-right: 61%;
   }
   .viewAll {
     top: 110px;
-    right:208px ;
-  }
-  .add {
-    top: 140px;
-    right:206px ;
+    right: 0px;
+    margin-right: 44%;
   }
   .nav2 {
     flex-direction: column;
@@ -313,6 +311,12 @@ footer span {
   .nav2 div {
     width:45%;
     margin: auto auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+.myCv {
+    right: 38px;
   }
 }
 @media screen and (max-width: 1000px) and ( min-width:600px) {
