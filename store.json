@@ -27,19 +27,19 @@
     "cardBootstrap": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/Tindog-Clone/' target='_blank'><img src='./Projects/Html_w_Bootstrap/images/Tindog.png' alt='Tin Dog website '><h3>Tindog</h3></a></article>"
   },
   {
-    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/Dice_Game/' target='_blank'><img src='./Projects/javaScript/images/diceGame.png' alt='Dice Game '><h3>Dice Game</h3></a></article>"
+    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/Dice_Game/' target='_blank'><img src='./Projects/JavaScript/images/diceGame.png' alt='Dice Game '><h3>Dice Game</h3></a></article>"
   },
   {
-    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/NotePad/' target='_blank'><img src='./Projects/javaScript/images/webNote_CRUD.png' alt='Web Note '><h3>Web Note</h3></a></article>"
+    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/NotePad/' target='_blank'><img src='./Projects/JavaScript/images/webNote_CRUD.png' alt='Web Note '><h3>Web Note</h3></a></article>"
   },
   {
-    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/SimonsGame/' target='_blank'><img src='./Projects/javaScript/images/simonGame.png' alt='Simon Game '><h3>Simon Game</h3></a></article>"
+    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/SimonsGame/' target='_blank'><img src='./Projects/JavaScript/images/simonGame.png' alt='Simon Game '><h3>Simon Game</h3></a></article>"
   },
   {
-    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='./Projects/javaScript/multipleTimer/index.html' target='_blank'><img src='./Projects/javaScript/multipleTimer/images/timer3.png' alt='Multiple Timer '><h3>Multiple Timer</h3></a></article>"
+    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='./Projects/javaScript/multipleTimer/index.html' target='_blank'><img src='./Projects/JavaScript/multipleTimer/images/timer3.png' alt='Multiple Timer '><h3>Multiple Timer</h3></a></article>"
   },
   {
-    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/Notification-page/' target='_blank'><img src='./Projects/javaScript/images/notificationPageBehaviour.png' alt='Notification Behaviour '><h3>Notification Page</h3></a></article>"
+    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/Notification-page/' target='_blank'><img src='./Projects/JavaScript/images/notificationPageBehaviour.png' alt='Notification Behaviour '><h3>Notification Page</h3></a></article>"
   },
   {
     "cardReact": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/task-tracker-Clone/' target='_blank'><img src='./Projects/React/images/task-tracker_image.png' alt='Task-Tracker '><h3>Task-Tracker</h3></a></article>"
