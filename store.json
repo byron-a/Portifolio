@@ -36,10 +36,10 @@
     "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/SimonsGame/' target='_blank'><img src='./Projects/javaScript/images/simonGame.png' alt='Simon Game '><h3>Simon Game</h3></a></article>"
   },
   {
-    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/Notification-page/' target='_blank'><img src='./Projects/javaScript/images/notificationPageBehaviour.png' alt='Notification Behaviour '><h3>Notification Page</h3></a></article>"
+    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='./projects/javaScript/multipleTimer/index.html' target='_blank'><img src='./Projects/javaScript/multipleTimer/images/timer3.png' alt='Multiple Timer '><h3>Multiple Timer</h3></a></article>"
   },
   {
-    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='./projects/javaScript/multipleTimer/index.html' target='_blank'><img src='./Projects/javaScript/multipleTimer/images/timer3.png' alt='Multiple Timer '><h3>Multiple Timer</h3></a></article>"
+    "cardJavaS": "<article class='project-tile html'><a id='profile-link' href='https://byron-a.github.io/Notification-page/' target='_blank'><img src='./Projects/javaScript/images/notificationPageBehaviour.png' alt='Notification Behaviour '><h3>Notification Page</h3></a></article>"
   },
   {
     "cardReact": "<article class='project-tile html'><a id='profile-link' href='./projects/React/task-tracker/build/index.html' target='_blank'><img src='./Projects/React/task-tracker/public/task-tracker_image.png' alt='Task-Tracker '><h3>Task-Tracker</h3></a></article>"
